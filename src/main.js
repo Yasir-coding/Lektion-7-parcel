@@ -9,6 +9,8 @@ img.src = imageUrl;
 anime({
   targets: img,
   translateX: "300px",
-  duration: 10000,
+  direction: "alternate",
+  easing: 'easeInOutSine',
+  duration: 3000,
   loop: true
 })
